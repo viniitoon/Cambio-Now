@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device - width, initial - scale = 1.0">
+        <title> Cambio Now </title>
+        <link href = "Style.css" rel = "stylesheet" />
+    </head>
+
+
+<body>
+    <div id="app" class="app">
+        <div class="content-title">
+            <h1>CambioNow</h1>
+        </div>
+        <div class="content-form">
+            <form>
+                <input type="number" min = "0" step="0.01" id="input_dollar" placeholder="Digite o valor em dolar:" />
+                <button type="submit" class = "btn-app">Converter para Cents</button>
+            </form>
+        </div>
+        <div    class="content-result">
+            <p>
+                Cents (total):
+                <span id="result"></span>
+            </p>
+        </div>
+        <div class="content-result">
+            <p>
+                Moedas :
+                <span id="result-moedas"></span>
+            </p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
